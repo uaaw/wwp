@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "atcoder-cli": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1634477178,
+        "narHash": "sha256-7pbCTgWt+khKVyMV03HanvuOX2uAC0PL9OLmqly7IWE=",
+        "owner": "Tatamo",
+        "repo": "atcoder-cli",
+        "rev": "3be1031154a923de74769be1c993e1bf75cad70e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Tatamo",
+        "ref": "v2.2.0",
+        "repo": "atcoder-cli",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1782340222,
+        "narHash": "sha256-4Xj9b5rAp+Hp6BnwEEefMLxSbHe8CfSlISYs7r6O/aU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b153953686370a8dc14231db115b058b137644de",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b153953686370a8dc14231db115b058b137644de",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "atcoder-cli": "atcoder-cli",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
